@@ -1,0 +1,81 @@
+Create a full MVP website for an AI SaaS called **"ProjectWizard"**, which helps students auto-generate academic project content like titles, abstracts, objectives, and references using AI.
+
+💡 Purpose:
+To save time for college and school students by generating full project blueprints instantly. No backend or real API in MVP — just mocked responses with future integration points.
+
+🧑‍🎓 Target Audience:
+College and high school students doing academic projects (IT, science, management, arts, etc.)
+
+⚙️ Features (MVP Version):
+- Input: Project topic + category selection (dropdown)
+- Output (mocked): 
+   - Project Title
+   - Abstract
+   - Objective
+   - Tools/Technology suggestions
+   - Reference list
+- Copy buttons for each section
+- “Generate Again” button
+- Show loader/animation for fake AI effect
+
+📄 Pages:
+1. **Home Page**
+   - Clean headline: “AI Project Maker for Students”
+   - Subheadline: “Generate titles, abstracts, objectives & more from just a topic.”
+   - Hero image or SVG
+   - CTA Button: “Start Project Wizard”
+   - Benefits section (cards with icons): Saves Time, Smart Content, Stress-Free
+   - “How it works” section (3 steps)
+   - Placeholder ad sections: `<!-- Ad Placeholder 1 -->`, etc.
+
+2. **Tool Page** (`/project-helper`)
+   - Input form:
+     - Project topic (textarea)
+     - Dropdown: Select stream (Engineering, Management, Science, etc.)
+     - Button: “Generate Project Content”
+   - Output area:
+     - Mocked AI response (e.g., static text from JavaScript or JSON)
+     - Include animation using `setTimeout()` for realism
+   - “Copy All” button
+   - Ad placeholder on side or bottom
+   - Footer with contact and privacy policy
+
+3. **About Page**
+   - Who it’s for, how it works, and why it’s free
+
+4. **Contact Page (Optional - Mock Form)**
+
+🧠 Backend Logic (Mock Only):
+- No real OpenAI/API integration
+- Use JavaScript + `setTimeout()` to simulate AI processing delay
+- All responses are dummy/static in MVP
+- Comments included in code: `// TODO: Integrate OpenAI API here`
+
+🎨 UI/UX:
+- Professional look like Notion, Framer, or Midjourney
+- Fully responsive (mobile/tablet/desktop)
+- Modern font (Inter or Poppins)
+- Glassmorphism effect on cards
+- Light/Dark mode toggle
+- Cool animation on Generate button
+- Scroll-based animations (AOS or pure CSS)
+- Tailwind CSS preferred (optional)
+
+📦 Tech Stack:
+- HTML, CSS (or Tailwind), JavaScript
+- No backend
+- Deploy-ready to Netlify, Replit, Vercel
+- Save inputs using `localStorage` (bonus)
+
+📈 SEO Ready:
+- Meta Tags: “AI Project Generator”, “Generate Academic Abstract”, “Final Year Project Helper”, “Student Project AI Tool”
+- Sitemap placeholder
+- Favicon: robot or book icon
+
+💰 Ads & Monetization:
+- Placeholder `<div>`s for Google AdSense
+- Text: “We keep this free with help from sponsors”
+- Room for affiliate project kits or tools
+
+🗂 Project Name: `project-wizard-mvp`
+
